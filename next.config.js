@@ -1,5 +1,5 @@
 const path = require('path')
- 
+
 module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
@@ -13,7 +13,12 @@ module.exports = {
       },
       {
         protocol: 'https',
-        hostname: 'media.dev.to',
+        hostname: 'Saraswotikhadka.com.np',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'Saraswotikhadka.com.np',  // Add this line for media2.dev.to
         pathname: '**',
       },
     ],
